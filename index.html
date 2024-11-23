@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" menu="IE=edge">
-    <meta name="viewport" menu="width=device-width, initial-scale=1">
+    <meta content="width=device-width" name="viewport" menu="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <link href="assets/css/style.css" rel="stylesheet">
     <style type="text/css">
         .banner-image {
@@ -25,9 +25,10 @@
 
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light p-0">
-        <div class="container-fluid flex">
-            <a class="navbar-brand" href="index.html"><img class="img-responsive img-fluid" style="width: 50%;"
-                    src="assets/img/logo1.png" alt=""></a>
+        <div class="container-fluid flex bg-white">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-responsive img-fluid w-50" src="assets/img/logo1.png" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,26 +38,22 @@
                 <div class="mx-auto">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="shop-all.html" role="button" aria-expanded="false"
-                                style="color: black;">
+                            <a class="nav-link text-black" href="shop-all.html" role="button" aria-expanded="false">
                                 SHOP ALL
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="best-seller.html" role="button" aria-expanded="false"
-                                style="color: black;">
+                            <a class="nav-link text-black" href="best-seller.html" role="button" aria-expanded="false">
                                 BEST SELLERS
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mitra.html" role="button" aria-expanded="false"
-                                style="color: black;">
+                            <a class="nav-link text-black" href="mitra.html" role="button" aria-expanded="false">
                                 MITRA
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="profile.html" role="button" aria-expanded="false"
-                                style="color: black;">
+                            <a class="nav-link text-black" href="profile.html" role="button" aria-expanded="false">
                                 PROFILE
                             </a>
                         </li>
@@ -67,7 +64,8 @@
                     <li class="nav-item active p-3 bg-transparent">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <div class="search-box">
-                            <input type="text">
+                            <label for="search"></label>
+                            <input title="Search" id="search" name="search" type="text">
                             <input type="button" value="Search">
                         </div>
                     </li>
@@ -85,11 +83,11 @@
 
     <!-- Banner Image -->
     <div class="banner-image w-100 vh-100 d-flex text-align-left">
-        <div class="menu text-left" style="margin-top: 150px;margin-left: 50px;">
-            <h1 class="head" style="font-size: 64px; margin-bottom: 80px;">
+        <div class="menu text-left text-white marginTop-150 ps-5">
+            <h1 class="head mb-5">
                 GENERAL CLEANING SUPPLIES<br> HOUSEKEEPING,<br>STEWARDING & LAUNDRY
             </h1>
-            <p class="sub-head" style="letter-spacing: 2px; line-height: 1.6;">
+            <p class="sub-head let-space line-h">
                 Bersihkan Segala Kotoran<br>Lebih Menyenangkan Dengan<br>Memakai Sabun Yang Aman.<br>Nikmati Diskon 20%
                 <br>Dengan Kode XXXXX
             </p>
@@ -113,35 +111,35 @@
 
         <div class="main-carousel slide position-relative">
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/bathroom.jpg">
+                <img  src="assets/img/bathroom.jpg" alt="gambar Sabun 1">
                 <div class="slide-txt">
                     <p class="txt1">Bathroom Cleaner</p>
                     <p class="txt2">Pembersih Kamar Mandi</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/function.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/function.jpg" alt="gambar Sabun 2">
                 <div class="slide-txt">
                     <p class="txt1">Function</p>
                     <p class="txt2">Multi Purpose Cleaner</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/furniture.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/furniture.jpg" alt="gambar Sabun 3">
                 <div class="slide-txt">
                     <p class="txt1">Furniture</p>
                     <p class="txt2">Perawatan Furniture</p>
                 </div>
             </div>
             <div class="slide-img ">
-                <img class="img-responsive img-fluid" src="assets/img/glassio.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/glassio.jpg" alt="gambar Sabun 4">
                 <div class="slide-txt">
                     <p class="txt1">Glassio</p>
                     <p class="txt2">Glass Cleaner</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/sensation.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/sensation.jpg" alt="gambar Sabun 5">
                 <div class="slide-txt">
                     <p class="txt1">Sensation</p>
                     <p class="txt2">Penghilang Bau Tidak Sedap</p>
@@ -149,41 +147,41 @@
             </div>
         </div>
 
-        <div class="p-5" align="center" style="margin-top: 100px;">
+        <div class="p-5 mt-5" align="center">
             <h1 class="home">HOUSEKEEPING PRODUK</h1>
             <p class="sub-home">Produk Perawatan Berjangka Panjang</p>
         </div>
         <div class="main-carousel slide position-relative">
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/bathroom.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/bathroom.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Bathroom Cleaner</p>
                     <p class="txt2">Pembersih Kamar Mandi</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/function.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/function.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Function</p>
                     <p class="txt2">Multi Purpose Cleaner</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/furniture.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/furniture.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Furniture</p>
                     <p class="txt2">Perawatan Furniture</p>
                 </div>
             </div>
             <div class="slide-img ">
-                <img class="img-responsive img-fluid" src="assets/img/glassio.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/glassio.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Glassio</p>
                     <p class="txt2">Glass Cleaner</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/sensation.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/sensation.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Sensation</p>
                     <p class="txt2">Penghilang Bau Tidak Sedap</p>
@@ -191,42 +189,42 @@
             </div>
         </div>
 
-        <div class="p-5" align="center" style="margin-top: 100px;">
+        <div class="p-5 mt-5" align="center">
             <h1 class="home">KITCHEN STEWARD PRODUK</h1>
             <p class="sub-home">Produk Perawatan Rutin Setiap Hari</p>
         </div>
 
         <div class="main-carousel slide position-relative">
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/dish.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/dish.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Dish Prime</p>
                     <p class="txt2">Dishmachine Detergent</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/rinse.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/rinse.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Rinse Prime</p>
                     <p class="txt2">Pemecah Molekul Air</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/winner.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/winner.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Winner</p>
                     <p class="txt2">Sabun Cuci Piring</p>
                 </div>
             </div>
             <div class="slide-img ">
-                <img class="img-responsive img-fluid" src="assets/img/floorkit.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/floorkit.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Floorkit</p>
                     <p class="txt2">Sabun Khusus Noda Minyak</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/disinfectant.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/disinfectant.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Quat Disinfectant</p>
                     <p class="txt2">Quat Sanitizer</p>
@@ -234,42 +232,42 @@
             </div>
         </div>
 
-        <div class="p-5" align="center" style="margin-top: 100px;">
+        <div class="p-5 mt-5" align="center">
             <h1 class="home">KITCHEN STEWARD PRODUK</h1>
             <p class="sub-home">Produk Perawatan Berjangka Panjang</p>
         </div>
 
         <div class="main-carousel slide position-relative">
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/carbonarang.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/carbonarang.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Carbonarang</p>
                     <p class="txt2">Pembersih Peralatan Masak</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/metal.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/metal.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Metal Polish</p>
                     <p class="txt2">Metal Cleaner</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/metal2.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/metal2.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Metal Protector</p>
                     <p class="txt2">Pelindung Logam</p>
                 </div>
             </div>
             <div class="slide-img ">
-                <img class="img-responsive img-fluid" src="assets/img/calcium.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/calcium.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Calcium Remover</p>
                     <p class="txt2">Penghilang Kerak Air</p>
                 </div>
             </div>
             <div class="slide-img">
-                <img class="img-responsive img-fluid" src="assets/img/floorido.jpg">
+                <img class="img-responsive img-fluid" src="assets/img/floorido.jpg" alt="gambar Sabun">
                 <div class="slide-txt">
                     <p class="txt1">Floorido</p>
                     <p class="txt2">Sanitary Cleaner & Disinfectant With Fragrance</p>
@@ -278,16 +276,16 @@
         </div>
     </div>
     <!-- Developed -->
-    <div class="row align-items-center p-5 dev" style="margin-top: 100px;">
+    <div class="row align-items-center p-5 dev mt-5">
         <div class="col">
-            <p style="font-size: 24px; color: #1C3869;">DEVELOPED BY EDANE CHEMICAL™</p>
-            <h2 style="font-size: 48px; color: #1C3869;">Edane Chemical</h2>
-            <p style="font-size: 18px;">Developed with your needs in mind, delivering on our<br>promise to provide more affordable dirt
+            <p class="fs-3 color-cus">DEVELOPED BY EDANE CHEMICAL™</p>
+            <h2 class="font-48 color-cus">Edane Chemical</h2>
+            <p class="fs-4">Developed with your needs in mind, delivering on our<br>promise to provide more affordable dirt
                 cleaning
                 solutions.</p>
         </div>
         <div class="col" align="center">
-            <img src="assets/img/logo.png" style="width: 60%; height: 60%;">
+            <img class="w-50 h-50" src="assets/img/logo.png"  alt="gambar">
         </div>
     </div>
     </div>
@@ -296,9 +294,9 @@
     <div class="footer">
         <!-- Sign Up -->
         <div class="p-5">
-            <div class="row" style="text-align: center;">
+            <div class="row text-center">
                 <form class="d-flex" action="">
-                    <div class="col-7" style="font-size: 18px;">
+                    <div class="col-7 fs-4">
                         Sign up for subscriber-only discounts, first look at<br>new products &
                         Dirt Cleaning tips!
                     </div>
@@ -315,18 +313,18 @@
         </div>
 
 
-        <hr style="height: 2px; background-color: black; border: 0 solid;">
+        <hr class="bg-black hr-cus">
 
         <div class="p-0">
             <div class="row m-lg-5">
                 <div class="col-5">
-                    <h2 class="footer" style="font-size: 48px;line-height: 55px;">ONLY GOOD <br><span>(DIRT CLEANER)</span><br>DAYS AHEAD<sup>®</sup></h2>
+                    <h2 class="foot-text">ONLY GOOD <br><span>(DIRT CLEANER)</span><br>DAYS AHEAD<sup>®</sup></h2>
                 </div>
                 <div class="col-2">
                     <nav class="navbar nav">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <p style="font-size: 18px;">Customer Care</p>
+                                <p class="font-18">Customer Care</p>
                             </li>
                             <li class="nav-item">
                                 <a class="link" href="https://sokoglam.com/pages/faqs">FAQ</a>
@@ -347,7 +345,7 @@
                     <nav class="navbar nav">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <p style="font-size: 18px;">About</p>
+                                <p class="font-18">About</p>
                             </li>
                             <li class="nav-item">
                                 <a class="link" href="https://sokoglam.com/pages/faqs">Our Story</a>
@@ -371,14 +369,14 @@
                     </nav>
                 </div>
                 <div class="col">
-                    <a class="p-2" href=""><img src="assets/img/facebook.svg" alt=""></a>
-                    <a class="p-2" href=""><img src="assets/img/twitter.svg" alt=""></a>
-                    <a class="p-2" href=""><img src="assets/img/instagram.svg" alt=""></a>
-                    <a class="p-2" href=""><img src="assets/img/youtube.svg" alt=""></a>
+                    <a class="p-2" href=""><img src="assets/img/facebook.svg" alt="facebook"></a>
+                    <a class="p-2" href=""><img src="assets/img/twitter.svg" alt="twitter"></a>
+                    <a class="p-2" href=""><img src="assets/img/instagram.svg" alt="instagram"></a>
+                    <a class="p-2" href=""><img src="assets/img/youtube.svg" alt="youtube"></a>
                     <div class="w-100 p-2"></div>
                     <a href="" class="link">kayucoklat88@gmail.com</a>
                     <p>Jl.Pulau Moyo - Pedungan - Bali</p>
-                    <ul class="nav" style="margin-top: 8px;">
+                    <ul class="nav mt-2">
                         <li class="nav-item">
                             <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img"
                                 viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-amazon">
@@ -525,12 +523,12 @@
             </div>
         </div>
 
-        <div class="text-white"
-            style=" height: 50px;background-color: black;text-align: center;vertical-align: bottom;">
-            <p style="padding-top: 10px;"> © Copyright 2021-2022 Edane Chemical, Inc. All Rights Reserved.</p>
+        <div class="text-white bg-black text-center copy-cus">
+            <p class="pt-3"> © Copyright 2021-2022 Edane Chemical, Inc. All Rights Reserved.</p>
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script type="text/javascript">
         //Search

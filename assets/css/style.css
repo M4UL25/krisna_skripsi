@@ -13,6 +13,47 @@ body {
   src: url("assets/font/FreightBig.otf") format("opentype");
 }
 
+/* navbar */
+
+.marginTop-150{
+  margin-top: 150px;
+}
+
+.let-space{
+  letter-spacing: 2px;
+}
+
+.line-h{
+  line-height: 1.6;
+}
+
+.color-cus{
+  color: #1C3869;
+}
+
+.font-48{
+  font-size: 48px;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.hr-cus{
+  height: 2px;
+  border: 0 solid;
+}
+
+.foot-text{
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.copy-cus{
+  height: 50px;
+  vertical-align: bottom;
+}
+
 .slide {
   margin: 0;
   padding: 0;
@@ -47,11 +88,12 @@ body {
 }
 
 .slide-img {
+  /* background-color: aqua; */
   width: 33%;
   height: 700px;
   padding: 40px;
   border-radius: 5px;
-  counter-increment: slide-img;
+  /* counter-increment: slide-img; */
 }
 
 .pop-up-img {
@@ -152,7 +194,7 @@ body {
 
 .head {
   font-family: 'Freight', georgia, sans-serif;
-  font-size: 59px;
+  font-size: 65px;
   letter-spacing: 2.5px;
 }
 
@@ -575,6 +617,19 @@ a.link:hover {
   color: #fff;
   margin-left: -6px;
 }
+
+@media screen and(max-width: 1255px) {
+  .slide-img {
+    background-color: orange;
+  }
+}
+
+@media screen and(max-width: 1080px) {
+  .head {
+    font-size: 65px;
+  }
+}
+
 
 @media screen and(max-width:680px) {
   .search-box {
